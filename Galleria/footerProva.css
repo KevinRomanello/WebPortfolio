@@ -1,0 +1,42 @@
+#nav-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    font-size: 4vh;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer{
+    font-size: 3vh;
+    font-weight: 600;
+    padding-bottom: 7vh;
+}
+
+footer div > div{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    transition: 0.2s, transform 0.5s;
+    padding: 2vh;
+    width: 20vw;
+    column-gap: 5vw;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+footer div > div img{
+    display: block;
+    height: 15vh;
+}
+
+footer div > div:hover{
+    transform: scale(1.1);
+    transition: 0.2s, transform 0.5s;
+}

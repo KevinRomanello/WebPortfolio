@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'FontPrincipale', sans-serif;
+}
+
+#introduzione {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10vh 5vh 10vh 5vh;
+}
+
+#introduzione div {
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.btn-visita2 {
+    font-size: 2.3vh !important;
+    word-spacing: normal;
+}
+
+#box-btn {
+    margin-top: 3vh;
+    justify-content: left !important;
+}
+
+#introduzione div p {
+    justify-content: left;
+    font-size: 5vh;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 2vh;
+}
+
+.testo {
+    display: block !important;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    word-spacing: 8px;
+    line-height: 1.6;
+}
+
+#introduzione div {
+    display: flex;
+    justify-content: center;
+}
+
+#introduzione div img {
+    width: 60%;
+}
+
+.btn-visita {
+    border: solid 1px black;
+    
+}
+
+.contenuto2 {
+    background-image: linear-gradient(to right, plum, blue) !important;
+    color: transparent;
+    background-clip: text;
+}
+
+article {
+    background-color: black;
+    padding-bottom: 7vh;
+}
+
+.tabella_immagini {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 5vh;
+    row-gap: 1vw;
+}
+
+.riga3 {
+    display: flex;
+    width: 94vw;
+    column-gap: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.riga3 img {
+    object-fit: cover;
+    display: block;
+    height: auto;
+    max-width: 33.3%;
+}
+
+.riga2 {
+    display: flex;
+    width: 95vw;
+    column-gap: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.riga2 img {
+    object-fit: cover;
+    display: block;
+    height: auto;
+    max-width: 50%;
+}
+
+span {
+    color: plum;
+    font-weight: 600;
+}
+
+.pbottom{
+    padding-bottom: 15vh !important;
+}
+@font-face {
+    font-family: 'FontPrincipale';
+    /* Nome personalizzato */
+    src: url('font/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

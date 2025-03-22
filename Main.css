@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    background-color: rgb(86, 95, 100); /* Mercedes gray */
+    color: white;
+}
+
+header{
+    display: flex;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(72, 79, 82);
+}
+
+#Titolo{
+    margin: auto;
+    text-decoration: underline;
+    font-size: 7vh;
+    color: rgb(0, 161, 155);
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+}
+
+.in_centro{
+    display: flex;
+    width: 50vw;
+    margin: auto;
+    gap: 10px;
+}
+
+.in_centro div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 7vh;
+    color: white;
+    border: solid 1px white;
+    background-color: rgb(0, 161, 155); /* Mercedes Green 00A19B  Rosso mercedes 80142b*/
+    font-size: 2.5vh;
+    font-weight: bold;
+    width: 150px;
+    margin: auto;
+    align-items: center;
+}
+
+.in_centro div:hover{
+    background-color: rgb(0,63,61);
+}
+
+.divisore{
+    width: 100vw;
+    display: flex;
+}
+
+.linea{
+    margin: auto;
+    width: 65vw;
+    height: 5vh;
+    border-bottom: solid 1px white;
+}
+
+article{
+    margin: auto;
+    margin-top: 2vh;
+    width: 65vw;
+}
+
+.TitoloSezione{
+    display: flex;
+    color: rgb(0, 161, 155);
+    font-size: 5vh;
+    text-decoration: underline;
+}
+
+.asctag{
+    color: white;
+}
+
+.con_titolo{
+}
+
+article section{
+
+}
+
+.tabella{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2vw;
+}
+
+.FotoProfilo{
+    border-radius: 100%;
+    max-height: 40vh;
+    border: solid 3px rgb(0, 161, 155);
+}
+#FP{
+    float: right;
+    margin: 0;
+}
+
+/*
+<div class="divisoreSection">
+        <div class="linea2">
+        </div>
+</div>
+*/
+.divisoreSection{
+    width: 100%;
+    display: flex;
+}
+
+.linea2{
+    width: 120%;
+    height: 5vh;
+    border-bottom: solid 1px white;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+/*
+per fare un dot + paragrafo
+<div class="dot">
+    <img src="dot.png" alt="">
+    <div>
+        Adasfasfasfaasd
+    </div>
+</div>
+*/
+
+.dot{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.dot img{
+    height: 3.5vh;
+    margin-left: 1vw;
+}
+
+.dot div{
+    font-size: 3vh;
+}
+
+.range-date{
+    margin-left: auto; 
+    font-size: 2.5vh;
+}
+
+.dash{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.dash img{
+    height: 2vh;
+    width: 1.3vh;
+}
+
+.dash div{
+    margin-left: 0.6vw;
+}
+
+.box-sottotitolo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+
+.sottotitolo{
+    font-size: 3.6vh;
+}
+
+.box-sottotitolo div{
+    margin-left: 0.6vw;
+}
+
+.box-sottotitolo img{
+    height: 2.5vh;
+    width: 13px;
+}
+
+.margine-sinistro{
+    margin-left: calc(13px + 0.6vw);
+}
+
+.content{
+    font-size: 3vh;
+    line-height: 4vh;
+}
+
+.text-flex{
+    display: flex;
+}
+
+.in-par{
+ color: rgb(0, 161, 155);
+ text-decoration: underline;
+}
+
+.esperienza{
+    font-size: 2.5vh !important;
+}
+
+.padding-inferiore{
+    padding-bottom: 2vh;
+}
+
+.margine-sup{
+    margin-top: 1.7vh ;
+}
+
+.spacing{
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 10vh;
+    background-color: rgb(72, 79, 82);
+    height: 15vh;
+}
