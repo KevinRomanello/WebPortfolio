@@ -7,8 +7,8 @@ function visitaGallerie() {
     }
 }
 
-function Porfolio(){
-    window.open('./Home.html', '_blank');
+function Portfolio(){
+    window.open('../Home.html', '_blank');
 }
 
 function Linkedin(){
@@ -21,4 +21,28 @@ function GitHub(){
 
 function Instagram(){
     window.open('https://www.instagram.com/kevin_romanello/', '_blank');
+}
+
+function mdc(){
+    window.open("Madonna.html", '_blank');
+}
+
+function paganella(){
+    window.open("Paganella.html", '_blank');
+}
+
+function passo(){
+    window.open("PassoBroccon.html", '_blank');
+}
+
+function folgaria(){
+    window.open("Folgaria.html", '_blank');
+}
+
+function obereggen(){
+    window.open("Obereggen.html", '_blank');
+}
+
+function home(){
+    window.open("PhotoProject.html", '_blank');
 }
