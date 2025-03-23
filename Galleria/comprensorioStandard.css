@@ -42,13 +42,15 @@ body {
     line-height: 1.6;
 }
 
-#introduzione div {
-    display: flex;
-    justify-content: center;
+#introduzione div img {
+    width: 80%;
 }
 
-#introduzione div img {
-    width: 60%;
+#contenitore-img{
+    display: block!important;
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
 .btn-visita {
