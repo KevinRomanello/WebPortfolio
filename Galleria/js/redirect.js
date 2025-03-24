@@ -46,3 +46,24 @@ function obereggen(){
 function home(){
     window.open("PhotoProject.html", '_blank');
 }
+
+function Sitomdc(){
+    window.open("https://www.campigliodolomiti.it/it", '_blank');
+}
+
+function Sitopaganella(){
+    window.open("https://www.paganella.net/it", '_blank');
+}
+
+function Sitopasso(){
+    window.open("https://www.skilagorai.it/", '_blank');
+}
+
+function Sitofolgaria(){
+    window.open("https://www.alpecimbra.it/it/scopri-l-alpe-cimbra/localit%C3%A0/folgaria/66-0.html", '_blank');
+}
+
+function Sitobereggen(){
+    window.open("https://obereggen.com/it", '_blank');
+}
+
