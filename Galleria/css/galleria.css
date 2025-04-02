@@ -1,11 +1,11 @@
 .griglia{
     padding-bottom: 10vh;
-    font-size: 7vh;
+    font-size: 6vh;
     display: grid;
     grid-template-columns: auto auto;
     column-gap: 5vw;
     color: white;
-    font-size: 5vh;
+
 }
 
 .col1{
@@ -18,14 +18,15 @@
 }
 
 .col1 #text1 div{
-    background-image: linear-gradient( to right, red, blue);
+    background-image: linear-gradient( to right, #7d0885, #dda0dd);
     color: transparent;
     background-clip: text;
 }
 
 .col1 #text2{
-    background-image: linear-gradient( to right, plum, red);
+    background-image: linear-gradient( to right, plum, #6696ff);
     color: transparent;
+    justify-content: end;
     background-clip: text;
     padding-left: 3vw;
 }
@@ -70,7 +71,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-image: linear-gradient( to right, blue,white, blue);
+    background-image: linear-gradient( to right,plum,#dfe2f1, plum);
     color: transparent;
     background-clip: text;
 }
@@ -86,9 +87,9 @@
 .fullscreen{
     width: 100vw;
     height: 100vh;
-    background-image: url('../fotoProgetto/fotoBroc.JPG');
+    background-image: url('../fotoProgetto/DOLOMITI’S\ GALLERY.png');
     background-size: cover; 
-    background-position: center bottom; 
+    background-position: center center; 
     background-repeat: no-repeat;
 }
 
@@ -98,7 +99,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: rgba(118, 118, 118, 0.303);
+    /*background-color: rgba(118, 118, 118, 0.303);*/
 }
 
 .fullscreen > div .titolo{
@@ -113,7 +114,9 @@
     display: flex;
     padding: 20vh 20vh 20vh 20vh;
     column-gap: 4%;
+    background-color: #f6f6f6;
 }
+
 /*
     background-color: hsla(0, 0%, 90%, 0.701);
 */
@@ -128,11 +131,16 @@
 .contenuto-introduzione div .contenuto{
     word-spacing: 8px;
     line-height: 1.6;
-    font-size: 3vh;
+    font-size: 2.5vh;
+    width: 90%;
 }
 
-.contenuto-introduzione > div{
-    width: 48%;
+.cont{
+    width: 60%;
+}
+
+.cont-img{
+    width: 40%;
 }
 
 .contenuto-introduzione > div img{
@@ -140,7 +148,7 @@
 }
 
 #sezione2{
-    background-color: black;
+    background-color: #1f2130;
 }
 
 article{
@@ -159,7 +167,7 @@ article{
     height: 100vh;
     background-image: url('../fotoProgetto/montagnonaObereggen.JPG');
     background-size: cover; 
-    background-position: left bottom; 
+    background-position: left center; 
     background-repeat: no-repeat;
     
 }
@@ -199,7 +207,7 @@ section{
     height: 100vh;
     background-image: url('../fotoProgetto/FotoVerticaleMonte.png');
     background-size: cover; 
-    background-position: center top; 
+    background-position: center center; 
     background-repeat: no-repeat;
 }
 
@@ -218,15 +226,15 @@ section{
 #foto2 .titolo{
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items: end;
     padding-right: 2vw;
-    height: 100vh;
+    height: 49vh;
 }
 
 #foto1 .titolo{
     display: flex;
     align-items: end;
-    height: 70vh;
+    height: 61vh;
     padding-left: 2vw;
 }
 
@@ -242,16 +250,14 @@ section{
 .map-text-container {
     display: flex;
     align-items: flex-start; 
-    padding: 20vh 20vh 10vh 20vh;
+    padding: 20vh 20vh 20vh 20vh;
 }
   
 .map-container {
-    width: 50vw;
     flex: 1;  
 }
   
 .text-container {
-    width: 50vw;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -259,6 +265,7 @@ section{
     word-spacing: 8px;
     line-height: 1.6;
     font-size: 3vh;
+    margin: auto;
 }
 
 .text-container .titolo{
@@ -270,7 +277,7 @@ section{
 }
 
 .text-container .contenuto{
-    font-size: 3vh;
+    font-size: 2.5vh;
     padding-right: 4vw;
 }
 
@@ -279,6 +286,7 @@ body{
     font-family: 'FontPrincipale', sans-serif;
     font-weight: 300;
     width: 100%;
+    background-color: #f6f6f6;
 }
 
 span {

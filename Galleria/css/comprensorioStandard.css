@@ -4,15 +4,16 @@ body {
 }
 
 #introduzione {
+    height: 80vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
     margin: 10vh 5vh 10vh 5vh;
 }
 
 #introduzione div {
     display: flex;
     justify-content: center;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 .btn-visita2 {
@@ -43,23 +44,22 @@ body {
 }
 
 #introduzione div img {
-    width: 80%;
+    width: 100%;
 }
 
 #contenitore-img{
     display: block!important;
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
 }
 
 .btn-visita {
     border: solid 1px black;
-    
 }
 
 .contenuto2 {
-    background-image: linear-gradient(to right, plum, blue) !important;
+    background-image: linear-gradient(to right, plum, #003e99) !important;
     color: transparent;
     background-clip: text;
 }
@@ -115,6 +115,7 @@ span {
 .pbottom{
     padding-bottom: 15vh !important;
 }
+
 @font-face {
     font-family: 'FontPrincipale';
     /* Nome personalizzato */
