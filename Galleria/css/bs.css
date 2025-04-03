@@ -1,6 +1,9 @@
 .introduzione2{
-    height: 120vh;
+    height: 140vh;
     display: flex;
+    width: 100%;
+    color: white;
+    font-size: 2.5vh;
 }
 
 .divtitolo{
@@ -14,10 +17,8 @@
 }
 
 .divtitolo .subtitle{
-    color: white;
     margin-top: 5vh;
     text-align: end;
-    font-size: 2.5vh;
 }
 
 .divtitolo .titolo2{
@@ -32,29 +33,64 @@
     width: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 80vh;
-    background-color: #1f2130;
-    margin: auto;
-    border: solid 2px plum;
+    background: radial-gradient( #6b8bf5,plum);
+}
+
+.bordoFading{
+    border: 5vh solid;
+    border-image: radial-gradient(#6b8bf5,black) 10;
+}
+
+.fadeBlack{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.149), rgba(0, 0, 0, 0.398), black,black);
 }
 
 .box2 div img{
     width: 70%;
+    display: inline-block;
 }
 
 .box2 > div{
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 
-.box2 .contenuto{
-    color: white;
-    font-size: 2.5vh;
+.boxAlign .contenuto{
     text-align: left;
-    margin-top: 5vh;
-    margin-left: 2vw;
+    width: 80%;
+    padding-top: 10%;
 }
 
 .box3 div img{
     width: 100%;
 }
+
+.box3 div{
+    align-items: center;
+    justify-content: center;
+}
+
+.boxAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+}
+
+.colorato{
+    background-image: linear-gradient( 45deg, #dfe2f1, #6b8bf5);
+    color: transparent;
+    background-clip: text;
+}
+
+.coloratoRadial{
+    background-image: radial-gradient(circle at top, white,plum, plum);
+    color: transparent;
+    background-clip: text;
+}
+
