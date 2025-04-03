@@ -1,5 +1,4 @@
 .griglia{
-    padding-bottom: 10vh;
     font-size: 6vh;
     display: grid;
     grid-template-columns: auto auto;

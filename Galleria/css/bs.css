@@ -1,4 +1,4 @@
-.introduzione2{
+.introduzione{
     height: 140vh;
     display: flex;
     width: 100%;
@@ -83,7 +83,7 @@
 }
 
 .colorato{
-    background-image: linear-gradient( 45deg, #dfe2f1, #6b8bf5);
+    background-image: linear-gradient( 45deg, #dfe2f1, #6b8bf5, #3a5bc9);
     color: transparent;
     background-clip: text;
 }
@@ -92,5 +92,80 @@
     background-image: radial-gradient(circle at top, white,plum, plum);
     color: transparent;
     background-clip: text;
+}
+
+.mappa{
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 2.5vh;
+    align-items: center;
+}
+
+.mappa .titolo2{
+    background-image: linear-gradient(to left, plum, #5b8aff);
+}
+
+.mappa .subtitle{
+    background-image: linear-gradient(-45deg, plum, #5b8aff,#5b8aff);
+    color: transparent;
+    background-clip: text;
+}
+
+.mappa .box2{
+    background: radial-gradient(plum,#6b8bf5,#6b8bf5);
+}
+
+.to-left{
+    align-items: normal;
+}
+
+.to-right{
+    align-items: end;
+}
+
+.contenutori-globe{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.globe-fade-white{
+    width: 40vw;
+    height: 80vw;
+    background-image: radial-gradient(circle at left, white, #6b8bf5, black, black);
+}
+
+.titolo-fade{
+    position: absolute;
+    text-align: end;
+    font-size: 20vh;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #6d299e,#933fce,rgb(202, 123, 202), #ebeeff);
+    color: transparent;
+    background-clip: text;
+    text-shadow: white;
+    width: 55vw;
+    align-items: center;
+    filter: drop-shadow(10px 5px 5px rgba(255, 255, 255, 0.226));
+}
+
+.testo-fade{
+    display: flex;
+    width: 50vw;
+    height: 25vw;
+    padding-top: 30vw;
+    justify-content: end;
+    align-items: end;
+    font-size: 2.5vh;
+    background-image: linear-gradient(to left, #6d299e,#933fce,rgb(202, 123, 202),#ebeeff, #ebeeff);
+    color: transparent;
+    background-clip: text;
+}
+
+.testo-fade > div{
+    width: 80%;
 }
 
