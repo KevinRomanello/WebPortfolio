@@ -1,15 +1,8 @@
 function visitaGallerie() {
     const elemento = document.getElementById("map-section");
     if (elemento) {
-        // Ottieni la posizione dell'elemento
-        const elementPosition = elemento.getBoundingClientRect().top;
-        // Aggiungi l'offset desiderato (ad esempio -100px per lasciare spazio in alto)
-        const offsetPosition = elementPosition + window.pageYOffset + 100;
-        
-        // Esegui lo scroll con l'offset
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
+        elemento.scrollIntoView({ 
+            behavior: 'smooth' // Fa in modo che lo scorrimento sia fluido
         });
     }
 }
