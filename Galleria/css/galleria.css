@@ -4,9 +4,11 @@
     grid-template-columns: auto auto;
     column-gap: 5vw;
     color: white;
-
+    background-image: radial-gradient(circle at 100% 35%, rgba(59,130,246,0.5), black, black);
 }
-
+/*
+background-image: radial-gradient(circle  at 100% 35%,#fff7d0c4, rgba(149, 63, 117, 0.563),black,black, black);
+*/
 .col1{
     display: flex;
     flex-direction: column;
@@ -23,7 +25,7 @@
 }
 
 .col1 #text2{
-    background-image: linear-gradient( to right, plum, #6696ff);
+    background-image: linear-gradient( to right, lightgray, #6696ff);
     color: transparent;
     justify-content: end;
     background-clip: text;
@@ -37,7 +39,7 @@
 }
 
 #img3{
- width: 30vw;
+    width: 30vw;
 }
 
 .col2{
@@ -85,20 +87,20 @@
 
 .fullscreen{
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-image: url('../fotoProgetto/DOLOMITI’S\ GALLERY.png');
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
+    align-items: end;
+    display: flex;
 }
 
 .fullscreen > div{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    /*background-color: rgba(118, 118, 118, 0.303);*/
+    width: 100vw;
+    height: 20vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.622),black);
 }
 
 .fullscreen > div .titolo{
@@ -155,6 +157,18 @@ article{
     margin: 0;
 }
 
+.fading-border-top{
+    height: 15vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, rgba(58, 91, 201, 0.592), rgba(58, 91, 201, 0.31), #3a5bc900);
+}
+
+.fading-border-bottom{
+    height: 15vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(221, 160, 221, 0.461), rgba(221, 160, 221, 0.2), rgba(221, 160, 221, 0));
+}
+
 .contenitore-bimmagine{
     display: flex;
     margin: 0;
@@ -168,8 +182,8 @@ article{
     background-size: cover; 
     background-position: left center; 
     background-repeat: no-repeat;
-    
 }
+
 section{
     padding: 0;
     margin: 0;
