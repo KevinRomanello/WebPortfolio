@@ -81,22 +81,35 @@ background-image: radial-gradient(circle  at 100% 35%,#fff7d0c4, rgba(149, 63, 1
     width: 100vw;
 }
 
-#sezione1 img{
-    display: block;
-}
 
 .fullscreen{
     width: 100vw;
     height: 110vh;
-    background-image: url('../fotoProgetto/headerImages/DOLOMITI’S\ GALLERY_lightblue_font.png');
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
     align-items: end;
     display: flex;
+    background-image: url('../fotoProgetto/headerImages/DOLOMITI’S\ GALLERY_lightblue_font.png');
 }
 
-.fullscreen > div{
+#fsImg1{
+    background-image: url('../fotoProgetto/headerImages/IMG_2062.png');
+    z-index: -1;
+}
+
+#fsImg2{
+    background-image: url('../fotoProgetto/headerImages/scrittabg.png');
+    z-index: 0;
+    position: fixed;
+}
+
+#fsImg3{
+    background-image: url('../fotoProgetto/headerImages/IMG_2062\ copy.png');
+    z-index: 1;
+}
+
+#fadeFsImg{
     display: flex;
     width: 100vw;
     height: 20vh;
