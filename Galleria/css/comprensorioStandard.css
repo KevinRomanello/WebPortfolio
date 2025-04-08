@@ -4,6 +4,219 @@ body {
     background-color: black;
 }
 
+/*---------------------------------------------------------------------------*/
+
+.to-left{
+    align-items: normal;
+}
+
+.to-right{
+    align-items: end;
+}
+
+.contenutori-globe{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.globe-fade-white{
+    width: 40vw;
+    height: 80vw;
+    background-image: radial-gradient(circle at left, white, #6b8bf5, black, black);
+}
+
+.titolo-fade{
+    position: absolute;
+    text-align: end;
+    font-size: 20vh;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #6d299e,#933fce,rgb(202, 123, 202), #ebeeff);
+    color: transparent;
+    background-clip: text;
+    text-shadow: white;
+    width: 55vw;
+    align-items: center;
+    filter: drop-shadow(10px 5px 5px rgba(255, 255, 255, 0.226));
+}
+
+.testo-fade{
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    justify-content: end;
+    align-items: end;
+    font-size: 3vh;
+    background-image: linear-gradient(to left, #6d299e,#933fce,rgb(202, 123, 202),#ebeeff, #ebeeff);
+    color: transparent;
+    background-clip: text;
+}
+
+.testo-fade > div{
+    width: 80%;
+}
+
+/*---------------------------------------------------------------------------*/
+
+.introduzione{
+    width: 100%;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.bi-colonna{
+    grid-template-columns: 40% 60%;
+    display: grid;
+}
+
+.row1{
+    padding-top: 20vh;
+}
+
+.row2{    
+    height: 100vh;
+}
+
+.row1 > div{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2 > div{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#immagineIntro{
+    width: 35vw;
+    height: 80vh;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-image: url('../foto\ comuni/golfFolgaria.jpg');
+}
+
+.row2 .dx{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: left;
+}
+
+.row2 .sx{
+    background-image: radial-gradient(ellipse at 0% 50%,rgb(107, 139, 245),rgba(107, 139, 245, 0.528), black, black);
+}
+
+.row2 .dx > div{
+    width: 80%;
+}
+
+.divtitolo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 40vw;
+    align-items: center;
+    padding-left: 5vh;
+}
+
+.divtitolo .subtitle{
+    margin-top: 5vh;
+    text-align: end;
+}
+
+.divtitolo .titolo2{
+    background-image: linear-gradient( to right,plum,#dfe2f1, plum);
+    color: transparent;
+    background-clip: text;
+    font-size: 10vh;
+    width: 100%;
+    text-align: end;
+}
+
+.box2{
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background: radial-gradient( #6b8bf5,plum);
+    justify-content: center;
+    align-items: center;
+}
+
+.bordoFading{
+    border: 5vh solid;
+    border-image: radial-gradient(#6b8bf5,black) 10;
+}
+
+.fadeBlack{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.149), rgba(0, 0, 0, 0.398), black,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fadeBlack > div{
+    width: 70%;
+}
+
+.fadeBlack > div img{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.boxAlign .contenuto{
+    text-align: left;
+    width: 80%;
+    padding-top: 10%;
+}
+
+.contenuto > div{
+    padding-bottom: 5vh;
+}
+
+.box3 div img{
+    width: 100%;
+}
+
+.box3 div{
+    align-items: center;
+    justify-content: center;
+}
+
+.boxAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+}
+
+.colorato{
+    background-image: linear-gradient(to right, #dfe2f1, #6b8bf5, #3a5bc9);
+    color: transparent;
+    background-clip: text;
+}
+
+.coloratoRadial{
+    background-image: radial-gradient(circle at top, white,plum, plum);
+    color: transparent;
+    background-clip: text;
+}
+
+/*---------------------------------------------------------------------------*/
+
 #introduzione {
     height: 80vh;
     display: grid;
@@ -17,14 +230,27 @@ body {
     font-size: 2.5vh;
 }
 
-.btn-visita2 {
-    font-size: 2.3vh !important;
-    word-spacing: normal;
+.btn-visita {
+    padding: 2vh;
+    background-color: black!important;
+}
+
+.bordo:hover{
+    transition: 0.5s;
+    transform: scale(1.05)!important;
+}
+
+.bordo{
+    transition: 0.5s!important;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #dfe2f1, #6b8bf5, #3a5bc9);
+    padding: 2px;
 }
 
 #box-btn {
     margin-top: 3vh;
     justify-content: left !important;
+    display: flex;
 }
 
 #introduzione div p {
@@ -53,10 +279,6 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
-}
-
-.btn-visita {
-    border: solid 1px black;
 }
 
 .contenuto2 {
