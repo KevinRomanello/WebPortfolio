@@ -253,7 +253,7 @@ section{
     display: flex;
     justify-content: right;
     align-items: end;
-    padding-right: 2vw;
+    padding-right: 1vw;
     height: 49vh;
 }
 
@@ -261,7 +261,7 @@ section{
     display: flex;
     align-items: end;
     height: 61vh;
-    padding-left: 2vw;
+    padding-left: 1vw;
 }
 
 .titolo{
