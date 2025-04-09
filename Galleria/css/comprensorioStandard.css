@@ -19,7 +19,6 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-
 }
 
 .globe-fade-white{
@@ -64,6 +63,7 @@ body {
     width: 100%;
     color: white;
     font-size: 2.5vh;
+    padding-bottom: 10vh;
 }
 
 .bi-colonna{
@@ -72,11 +72,11 @@ body {
 }
 
 .row1{
-    padding-top: 20vh;
+    /*da mettere padding-top: 20vh; in caso di 2 tipo di header*/
 }
 
 .row2{    
-    height: 100vh;
+    height: 80vh; 
 }
 
 .row1 > div{
@@ -217,17 +217,14 @@ body {
 
 /*---------------------------------------------------------------------------*/
 
-#introduzione {
-    height: 80vh;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    margin: 10vh 5vh 10vh 5vh;
+.separatore{
+    padding: 10vh 20vh 20vh 20vh!important;
 }
 
-#introduzione div {
-    display: flex;
-    justify-content: center;
-    font-size: 2.5vh;
+.fading-border-bottom{
+    height: 15vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(221, 160, 221, 0.461), rgba(221, 160, 221, 0.2), rgba(221, 160, 221, 0));
 }
 
 .btn-visita {
@@ -253,40 +250,6 @@ body {
     display: flex;
 }
 
-#introduzione div p {
-    justify-content: left;
-    font-size: 5vh;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 2vh;
-}
-
-.testo {
-    display: block !important;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    word-spacing: 8px;
-    line-height: 1.6;
-}
-
-#introduzione div img {
-    width: 100%;
-}
-
-#contenitore-img{
-    display: block!important;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
-
-.contenuto2 {
-    background-image: linear-gradient(to right, plum, #003e99) !important;
-    color: transparent;
-    background-clip: text;
-}
-
 article {
     background-color: black;
     padding-bottom: 7vh;
@@ -298,6 +261,7 @@ article {
     flex-direction: column;
     padding-top: 5vh;
     row-gap: 1vw;
+    padding: 2vw;
 }
 
 .riga3 {
@@ -312,7 +276,6 @@ article {
     object-fit: cover;
     display: block;
     height: auto;
-    max-width: 33.3%;
 }
 
 .riga2 {
@@ -327,7 +290,7 @@ article {
     object-fit: cover;
     display: block;
     height: auto;
-    max-width: 50%;
+
 }
 
 span {
