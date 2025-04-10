@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/comprensorioStandard.css">
     <link rel="stylesheet" href="css/menu-lat.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/separatore.css">
     <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/madonna.css">
     <title>Madonna di Campiglio</title>
 </head>
 
@@ -54,67 +54,124 @@
             </div>
         </div>
     </aside>
-    <header class="fading-div">
-        <div id="contenitore-menu">
-            <div class="btn-visita" onclick="home()">
-                Home
-            </div>
-            <div class="btn-visita" onclick="Linkedin()">
-                Linkedin
-            </div>
-            <div class="btn-visita" onclick="Portfolio()">
-                Portfolio
-            </div>
-            <div class="btn-visita" onclick="GitHub()">
-                GitHub
-            </div>
-        </div>
-        <div id="titolo">
+
+    <article>
+        <section id="sezione_introduzione">
             <div>
-                Madonna di Campiglio
-            </div>
-        </div>
-    </header>
-    <div id="introduzione">
-        <div class="testo reveal">
-            <p>
-                Paesi e Valli
-            </p>
-            Valli, paesi, cime e gruppi montuosi che si estendono per 80 chilometri in un territorio dominato dalla maestosità delle <span>Dolomiti di Brenta</span> e delle <span>Alpi dell’Adamello</span>.
-            Un’area abbracciata dal <span>Parco Naturale Adamello Brenta</span>, che racchiude una molteplicità di ambienti: dai 370 metri di altitudine del <span>Lago d’Idro</span> e i campi coltivati della <span>Valle del Chiese</span> fino alle cime del <span>Carè Alto</span>, i ghiacciai perenni dell'<span>Adamello</span> e gli oltre 3500 metri della <span>Presanella</span>.
-            <div id="box-btn">
-                <div class="btn-visita2 btn-visita reveal" onclick="Sitomdc()">
-                    Visita sito 
+                <div class="titoloIntro">
+                    MADONNA DI
+                </div>
+                <div class="frasetta">
+                    <div>
+                        CAMPIGLIO
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="contenitore-img">
-            <img src="fotoProgetto/map-mdc.png" class="reveal">
-        </div>
-    </div>
-    <div class="nero">
-        <div class="separatore pbottom reveal">
-            <div>
-                <div id="angolo_sx"></div>
+        </section>
+
+        <!--
+            <section>
+                <div class="contenutori-globe to-left">
+                    <div class="globe-fade-white">
+                        
+                    </div>
+                    <div class="titolo-fade reveal4">
+                        Folgaria
+                    </div>
+                    <div class="testo-fade reveal5">
+                        <div>
+                            "Un panorama fantastico e infinite attività"
+                        </div>
+                    </div>
+                </div>
+            </section>
+            -->
+
+        <section class="introduzione">
+            <div class="bi-colonna row1">
+                <div class="sx">
+                    <div class="divtitolo">
+                        <div class="titolo2 reveal4">
+                            <div>
+                                Paesi e Valli
+                            </div>
+                        </div>
+                        <div class="subtitle coloratoRadial reveal4">
+                            Valli, paesi, cime e gruppi montuosi che si estendono per 80 chilometri in un territorio
+                            dominato dalla maestosità delle Dolomiti di Brenta e delle Alpi dell’Adamello. 
+                        </div>
+                    </div>
+                </div>
+                <div class="dx">
+                    <div class="boxAlign">
+                        <div class="box2 reveal">
+                            <div class="fadeBlack">
+                                <div>
+                                    <img src="fotoProgetto/map-mdc.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="contenuto" class="contenuto2">
+            <div class="bi-colonna row2">
+                <div class="sx">
+                    <!--
+                            <div id="immagineIntro">
+                            </div>
+                            -->
+                </div>
+                <div class="dx">
+                    <div class="contenuto">
+                        <div class="reveal5 colorato">
+                            Un’area abbracciata dal Parco Naturale Adamello Brenta, che racchiude una molteplicità di ambienti:
+                        </div>
+                        <div class="reveal5 colorato">
+                            dai 370 metri di altitudine del Lago d’Idro e i campi coltivati della Valle del Chiese fino
+                            alle cime del Carè Alto, i ghiacciai perenni dell'Adamello e gli oltre 3500 metri della
+                            Presanella.
+                        </div>
+                        <div class="reveal5 colorato">
+                            mentre d'estate il Golf Club Folgaria - 18
+                            buche a 1200 m di quota - e la Bike Area sono il paradiso degli sportivi.
+                        </div>
+                        <div id="box-btn" class="reveal5">
+                            <div class="bordo">
+                                <div class="btn-visita" onclick="Sitomdc()">
+                                    <div class="colorato">
+                                        Visita sito
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="fading-border-bottom"></div>
+
+        <div class="nero">
+            <div class="separatore pbottom reveal">
+                <div>
+                    <div id="angolo_sx"></div>
+                </div>
+                <div id="contenuto" class="contenuto2">
                     <div class="titolo2">
                         Dove le montagne si incontrano.
                     </div>
-                <div class="toright"> 
-                    <div class="sotto_titolo">
-                        Dove l'uomo ritorna alla natura autentica.
+                    <div class="toright">
+                        <div class="sotto_titolo">
+                            Dove l'uomo ritorna alla natura autentica.
+                        </div>
+                    </div>
+                </div>
+                <div class="toright tobottom">
+                    <div id="angolo_dx">
                     </div>
                 </div>
             </div>
-            <div class="toright tobottom">
-                <div id="angolo_dx">
-                </div>
-            </div>            
         </div>
-    </div>
-
-    <article>
         <section>
             <div class="tabella_immagini">
                 <div class="riga3 reveal">
@@ -180,4 +237,6 @@
 <script src="js/scriptmenu.js"></script>
 <script src="js/comparsa.js"></script>
 <script src="js/redirect.js"></script>
+<script src="js/ridimensionamento.js"></script>
+
 </html>

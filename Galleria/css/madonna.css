@@ -5,7 +5,7 @@
 #sezione_introduzione{
     width: 100%;
     height: 100vh;
-    background-image: url("../FotoContent/Folgaria\ foto/FotoDaBaita.jpg");
+    background-image: url("../FotoContent/Madonna\ foto/madonna-di-campiglio-foto-bella.jpg");
     background-repeat: no-repeat;
     background-position: center center; 
     background-size: cover; 
@@ -39,7 +39,7 @@
     justify-content: end;
     padding-bottom: 20vh;
     width: 80%;
-    font-size: 4vh;
+    font-size: 15vh;
 }
 
 #sezione_introduzione > div > .frasetta div{
@@ -52,3 +52,6 @@
     filter: drop-shadow(4px 2px 4px rgba(0, 0, 0, 0.642))!important;
 }
 
+.fadeBlack div img{
+    border-radius: 0%!important;
+}
