@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/comprensorioStandard.css">
     <link rel="stylesheet" href="css/PassoBroccon.css">
     <link rel="stylesheet" href="css/menu-lat.css">
@@ -55,69 +54,109 @@
             </div>
         </div>
     </aside>
-    <header class="fading-div">
-        <div id="contenitore-menu">
-            <div class="btn-visita" onclick="home()">
-                Home
-            </div>
-            <div class="btn-visita" onclick="Linkedin()">
-                Linkedin
-            </div>
-            <div class="btn-visita" onclick="Portfolio()">
-                Portfolio
-            </div>
-            <div class="btn-visita" onclick="GitHub()">
-                GitHub
-            </div>
-        </div>
-        <div id="titolo">
+
+    <article>
+        <section id="sezione_introduzione">
             <div>
-                Passo Broccon
-            </div>
-        </div>
-    </header>
-    <div id="introduzione">
-        <div class="testo reveal">
-            <p>
-                Territorio Lagorai
-            </p>
-            L’area nei dintorni degli impianti di risalita è conosciuta e denominata da tutti come <span>Passo Brocon</span> anche se
-            il passo vero e proprio si trova a <span>5 chilometri</span> dalla stazione sciistica di <span>Funivie Lagorai</span>.
-            I nostri impianti si trovano a <span>Località Marande</span>, dove il piccolo altipiano del <span>Lagorai</span> si apre verso il
-            passo che è meta di escursioni estive e passeggiate con le ciaspole durante la stagione invernale.
-            <div id="box-btn">
-                <div class="btn-visita2 btn-visita reveal" onclick="Sitopasso()">
-                    Visita sito
+                <div class="titoloIntro">
+                    PASSO BROCCON
                 </div>
-            </div>
-        </div>
-        <div id="contenitore-img">
-            <img src="fotoProgetto/mappaPasso.png" id="foto-mappa"class="reveal">
-        </div>
-    </div>
-    <div class="nero">
-        <div class="separatore pbottom reveal">
-            <div>
-                <div id="angolo_sx"></div>
-            </div>
-            <div id="contenuto" class="contenuto2">
-                <div class="titolo2">
-                    Il Lagorai che non ti aspetti
-                </div>
-                <div class="toright">
-                    <div class="sotto_titolo">
-                        Un piccolo altopiano immerso nella natura
+                <div class="frasetta">
+                    <div>
+                        "Una montagna, infinite avventure"
                     </div>
                 </div>
             </div>
-            <div class="toright tobottom">
-                <div id="angolo_dx">
+        </section>
+
+        <section class="introduzione">
+            <div class="bi-colonna row1">
+                <div class="sx">
+                    <div class="divtitolo">
+                        <div class="titolo2 reveal4">
+                            <div>
+                                Territorio Lagorai
+                            </div>
+                        </div>
+                        <div class="subtitle coloratoRadial reveal4">
+                            Gli impianti si trovano a Località Marande, dove il piccolo altipiano
+                            del Lagorai si apre verso il passo.
+                        </div>
+                    </div>
+                </div>
+                <div class="dx">
+                    <div class="boxAlign">
+                        <div class="box2 reveal">
+                            <div class="fadeBlack">
+                                <div>
+                                    <img src="fotoProgetto/mappa_PassoBroccon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bi-colonna row2">
+                <div class="sx">
+                    <!--
+                        <div id="immagineIntro">
+                        </div>
+                    -->
+                </div>
+                <div class="dx">
+                    <div class="contenuto">
+                        <div class="reveal5 colorato">
+                            L’area nei dintorni degli impianti di risalita è conosciuta e denominata da tutti come Passo
+                            Brocon anche se il passo vero e proprio si trova a 5 chilometri dalla stazione sciistica di
+                            Funivie Lagorai.
+                        </div>
+                        <div class="reveal5 colorato">
+                            Questa zona è meta di escursioni estive e passeggiate con le
+                            ciaspole durante la stagione invernale.
+                        </div>
+                        <div class="reveal5 colorato">
+                            La Ski Area di Passo Brocon è attrezzata ad ospitare sciatori alle prime armi come sciatori
+                            più esperti. Riders, scialpinisti e famiglie con bambini, a ognuno il suo modo di vivere le
+                            emozioni della neve!
+                        </div>
+                        <div id="box-btn" class="reveal5">
+                            <div class="bordo">
+                                <div class="btn-visita" onclick="Sitopasso()">
+                                    <div class="colorato">
+                                        Visita sito
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="fading-border-bottom"></div>
+
+        <div class="nero">
+            <div class="separatore pbottom reveal">
+                <div>
+                    <div id="angolo_sx"></div>
+                </div>
+                <div id="contenuto" class="contenuto2">
+                    <div class="titolo2">
+                        Il Lagorai che non ti aspetti
+                    </div>
+                    <div class="toright">
+                        <div class="sotto_titolo">
+                            Un piccolo altopiano immerso nella natura
+                        </div>
+                    </div>
+                </div>
+                <div class="toright tobottom">
+                    <div id="angolo_dx">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <article>
         <section>
             <div class="tabella_immagini">
                 <div class="riga3 reveal">
@@ -183,5 +222,6 @@
 <script src="js/scriptmenu.js"></script>
 <script src="js/comparsa.js"></script>
 <script src="js/redirect.js"></script>
+<script src="js/ridimensionamento.js"></script>
 
 </html>
