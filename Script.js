@@ -11,7 +11,7 @@ function foto(){
     }
 }
 
-function gotoProgetti(){
+function GoToProgetti(){
     window.open('progetti.html');
 }
 
