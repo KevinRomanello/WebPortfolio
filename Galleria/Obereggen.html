@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/comprensorioStandard.css">
     <link rel="stylesheet" href="css/obereggen.css">
     <link rel="stylesheet" href="css/menu-lat.css">
@@ -55,73 +54,106 @@
             </div>
         </div>
     </aside>
-    <header class="fading-div">
-        <div id="contenitore-menu">
-            <div class="btn-visita" onclick="home()">
-                Home
-            </div>
-            <div class="btn-visita" onclick="Linkedin()">
-                Linkedin
-            </div>
-            <div class="btn-visita" onclick="Portfolio()">
-                Portfolio
-            </div>
-            <div class="btn-visita" onclick="GitHub()">
-                GitHub
-            </div>
-        </div>
-        <div id="titolo">
+
+    <article>
+        <section id="sezione_introduzione">
             <div>
-                Obereggen
-            </div>
-        </div>
-    </header>
-    <div id="introduzione">
-        <div class="testo reveal">
-            <p>
-                Paesaggio e Ambiente
-            </p>
-            Verso i rifugi di montagna, verso la <span>croce di vetta</span>, verso la partenza delle piste. E
-            posare lo sguardo oltre <span>l’orizzonte</span>, al di là delle <span>creste aguzze</span>, e poi giù fino a valle. Sovrastare le
-            <span>verdi foreste</span> e le sfumature allegre dei prati. Ascoltare il richiamo della natura delle <span>Dolomiti</span>,
-            passeggiando lungo i sentieri segnalati, <span>pedalando in bicicletta</span> o <span>sciando</span> sulla neve fresca.
-            E tra un’avventura e l’altra fermarsi ad ammirare il <span>paesaggio</span>. 
-            <br><br>
-            A <span>Obereggen</span> si riconosce il valore e la bellezza della natura, per questa ragione tra queste <span>cime</span>
-            viene data estrema importanza alla <span>tutela ambientale</span> e all’<span>ecosostenibilità</span>.
-            <div id="box-btn">
-                <div class="btn-visita2 btn-visita reveal" onclick="Sitobereggen()">
-                    Visita sito
+                <div class="titoloIntro">
+                    OBEREGGEN
                 </div>
-            </div>
-        </div>
-        <div id="contenitore-img">
-            <img src="fotoProgetto/mappaObereggen.png" id="foto-mappa" class="reveal">
-        </div>
-    </div>
-    <div class="nero">
-        <div class="separatore pbottom reveal">
-            <div>
-                <div id="angolo_sx"></div>
-            </div>
-            <div id="contenuto" class="contenuto2">
-                <div class="titolo2">
-                    Qui ci si spinge verso la vetta
-                </div>
-                <div class="toright">
-                    <div class="sotto_titolo">
-                        e si osserva il panorama dall’alto
+                <div class="frasetta">
+                    <div>
+                        "Puntare in alto! Verso la vetta"
                     </div>
                 </div>
             </div>
-            <div class="toright tobottom">
-                <div id="angolo_dx">
+        </section>
+
+        <section class="introduzione">
+            <div class="bi-colonna row1">
+                <div class="sx">
+                    <div class="divtitolo">
+                        <div class="titolo2 reveal4">
+                            <div>
+                                Paesaggio e Ambiente
+                            </div>
+                        </div>
+                        <div class="subtitle coloratoRadial reveal4">
+                            Verso i rifugi di montagna, verso la croce di vetta, verso la partenza delle piste. E posare
+                            lo sguardo oltre l’orizzonte, al di là delle creste aguzze, e poi giù fino a valle.
+                        </div>
+                    </div>
+                </div>
+                <div class="dx">
+                    <div class="boxAlign">
+                        <div class="box2 reveal">
+                            <div class="fadeBlack">
+                                <div>
+                                    <img src="fotoProgetto/mappaFolgaria.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bi-colonna row2">
+                <div class="sx">
+                    <!--
+                            <div id="immagineIntro">
+                            </div>
+                        -->
+                </div>
+                <div class="dx">
+                    <div class="contenuto">
+                        <div class="reveal5 colorato">
+                            Sovrastare le verdi foreste e le sfumature allegre dei prati. Ascoltare il richiamo della
+                            natura delle Dolomiti, passeggiando lungo i sentieri segnalati, pedalando in bicicletta o
+                            sciando sulla neve fresca. 
+                        </div>
+                        <div class="reveal5 colorato">
+                            E tra un’avventura e l’altra fermarsi ad ammirare il paesaggio.
+                        </div>
+                        <div class="reveal5 colorato">
+                            A Obereggen si riconosce il valore e la bellezza della natura, per questa ragione tra queste
+                            cime viene data estrema importanza alla tutela ambientale e all’ecosostenibilità.
+                        </div>
+                        <div id="box-btn" class="reveal5">
+                            <div class="bordo">
+                                <div class="btn-visita" onclick="Sitobereggen()">
+                                    <div class="colorato">
+                                        Visita sito
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="fading-border-bottom"></div>
+
+        <div class="nero">
+            <div class="separatore pbottom reveal">
+                <div>
+                    <div id="angolo_sx"></div>
+                </div>
+                <div id="contenuto" class="contenuto2">
+                    <div class="titolo2">
+                        Qui ci si spinge verso la vetta
+                    </div>
+                    <div class="toright">
+                        <div class="sotto_titolo">
+                            e si osserva il panorama dall’alto
+                        </div>
+                    </div>
+                </div>
+                <div class="toright tobottom">
+                    <div id="angolo_dx">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <article>
         <section>
             <div class="tabella_immagini">
                 <div class="riga3 reveal">
@@ -187,5 +219,6 @@
 <script src="js/scriptmenu.js"></script>
 <script src="js/comparsa.js"></script>
 <script src="js/redirect.js"></script>
+<script src="js/ridimensionamento.js"></script>
 
 </html>
