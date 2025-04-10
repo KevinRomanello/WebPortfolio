@@ -10,3 +10,9 @@ function foto(){
         FP.style.height = (AboutMe.offsetHeight) + "px";
     }
 }
+
+function gotoProgetti(){
+    window.open('progetti.html');
+}
+
+
