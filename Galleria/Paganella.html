@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/comprensorioStandard.css">
     <link rel="stylesheet" href="css/paganella.css">
     <link rel="stylesheet" href="css/menu-lat.css">
@@ -55,73 +54,125 @@
             </div>
         </div>
     </aside>
-    <header class="fading-div">
-        <div id="contenitore-menu">
-            <div class="btn-visita" onclick="home()">
-                Home
-            </div>
-            <div class="btn-visita" onclick="Linkedin()">
-                Linkedin
-            </div>
-            <div class="btn-visita" onclick="Portfolio()">
-                Portfolio
-            </div>
-            <div class="btn-visita" onclick="GitHub()">
-                GitHub
-            </div>
-        </div>
-        <div id="titolo">
+
+    <article>
+        <section id="sezione_introduzione">
             <div>
-                Paganella
-            </div>
-        </div>
-    </header>
-    <div id="introduzione">
-        <div class="testo reveal">
-            <p>
-                Territorio e Piste
-            </p>
-            <span>Andalo</span>, collocato ai piedi delle <span>Dolomiti di Brenta</span>, è oggi tra le località di punta dell’offerta invernale
-            del <span>Trentino</span> e tra le più conosciute delle <span>Alpi</span> grazie ad un comprensorio sciistico all'avanguardia con <span>50</span>
-            chilometri di larghissime piste, <span>1.100</span> metri di dislivello.
-            <br><br>
-            Il comprensorio è in grado si soddisfare ogni tipo di <span>sciatore</span>, grazie alla varietà di pendii che riesce ad
-            offrire: <span>11 piste blu</span>,
-            <span>15 piste rosse</span>, <span>1 pista nera</span>, per gli amanti dello snowboard,
-            un ampio <span>snowpark</span> ricco di strutture.
-            <div id="box-btn">
-                <div class="btn-visita2 btn-visita reveal" onclick="Sitopaganella()">
-                    Visita sito
+                <div class="titoloIntro">
+                    PAGANELLA
                 </div>
-            </div>
-        </div>
-        <div id="contenitore-img">
-            <img src="fotoProgetto/mappaPaganella.png" id="foto-mappa" class="reveal">
-        </div>
-    </div>
-    <div class="nero">
-        <div class="separatore pbottom reveal">
-            <div>
-                <div id="angolo_sx"></div>
-            </div>
-            <div id="contenuto" class="contenuto2">
-                <div class="titolo2">
-                    Il paesaggio Mozzafiato 
-                </div>
-                <div class="toright">
-                    <div class="sotto_titolo">
-                        Vivere la montagna tra le Dolomiti e il Garda
+                <div class="frasetta">
+                    <div>
+                        "Un panorama fantastico e infinite attività"
                     </div>
                 </div>
             </div>
-            <div class="toright tobottom">
-                <div id="angolo_dx">
+        </section>
+
+        <!--
+            <section>
+                <div class="contenutori-globe to-left">
+                    <div class="globe-fade-white">
+    
+                    </div>
+                    <div class="titolo-fade reveal4">
+                        Folgaria
+                    </div>
+                    <div class="testo-fade reveal5">
+                        <div>
+                            "Un panorama fantastico e infinite attività"
+                        </div>
+                    </div>
+                </div>
+            </section>
+        -->
+
+        <section class="introduzione">
+            <div class="bi-colonna row1">
+                <div class="sx">
+                    <div class="divtitolo">
+                        <div class="titolo2 reveal4">
+                            <div>
+                                Territorio e Piste
+                            </div>
+                        </div>
+                        <div class="subtitle coloratoRadial reveal4">
+                            Andalo, collocato ai piedi delle Dolomiti di Brenta, è oggi tra le località di punta
+                            dell’offerta invernale del Trentino. 
+                        </div>
+                    </div>
+                </div>
+                <div class="dx">
+                    <div class="boxAlign">
+                        <div class="box2 reveal">
+                            <div class="fadeBlack">
+                                <div>
+                                    <img src="fotoProgetto/mappaFolgaria.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bi-colonna row2">
+                <div class="sx">
+                    <!--
+                        <div id="immagineIntro">
+                        </div>
+                    -->
+                </div>
+                <div class="dx">
+                    <div class="contenuto">
+                        <div class="reveal5 colorato">
+                            Tra le più conosciute delle Alpi grazie ad un
+                            comprensorio sciistico all'avanguardia con 50 chilometri di larghissime piste, 1.100 metri
+                            di dislivello.
+                        </div>
+                        <div class="reveal5 colorato">
+                            Il comprensorio è in grado si soddisfare ogni tipo di sciatore, grazie alla varietà di
+                            pendii che riesce ad offrire: 
+                        </div>
+                        <div class="reveal5 colorato">
+                            11 piste blu, 15 piste rosse, 1 pista nera, per gli amanti
+                            dello snowboard, un ampio snowpark ricco di strutture.
+                        </div>
+                        <div id="box-btn" class="reveal5">
+                            <div class="bordo">
+                                <div class="btn-visita" onclick="Sitopaganella()">
+                                    <div class="colorato">
+                                        Visita sito
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="fading-border-bottom"></div>
+
+        <div class="nero">
+            <div class="separatore pbottom reveal">
+                <div>
+                    <div id="angolo_sx"></div>
+                </div>
+                <div id="contenuto" class="contenuto2">
+                    <div class="titolo2">
+                        Il paesaggio Mozzafiato
+                    </div>
+                    <div class="toright">
+                        <div class="sotto_titolo">
+                            Vivere la montagna tra le Dolomiti e il Garda
+                        </div>
+                    </div>
+                </div>
+                <div class="toright tobottom">
+                    <div id="angolo_dx">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <article>
         <section>
             <div class="tabella_immagini">
                 <div class="riga3 reveal">
@@ -187,5 +238,6 @@
 <script src="js/scriptmenu.js"></script>
 <script src="js/comparsa.js"></script>
 <script src="js/redirect.js"></script>
+<script src="js/ridimensionamento.js"></script>
 
 </html>
