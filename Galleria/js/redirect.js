@@ -8,7 +8,7 @@ function visitaGallerie() {
 }
 
 function Portfolio(){
-    window.open('../Home.html', '_blank');
+    window.open('../index.html', '_blank');
 }
 
 function Linkedin(){
