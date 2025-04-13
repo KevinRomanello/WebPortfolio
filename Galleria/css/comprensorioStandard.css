@@ -71,9 +71,6 @@ body {
     display: grid;
 }
 
-.row1{
-    /*da mettere padding-top: 20vh; in caso di 2 tipo di header*/
-}
 
 .row2{    
     height: 80vh; 
