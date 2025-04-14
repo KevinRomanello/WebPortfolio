@@ -4,57 +4,6 @@ body{
     color: white;
 }
 
-header{
-    display: flex;
-    height: 15vh;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(72, 79, 82);
-}
-
-#Titolo{
-    margin: auto;
-    text-decoration: underline;
-    font-size: 7vh;
-    color: rgb(0, 161, 155);
-}
-
-nav{
-    height: 15vh;
-    display: flex;
-}
-
-.in_centro{
-    display: flex;
-    width: 50vw;
-    margin: auto;
-    gap: 10px;
-}
-
-.in_centro div{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    height: 7vh;
-    color: white;
-    border: solid 1px white;
-    background-color: rgb(0, 161, 155); /* Mercedes Green 00A19B  Rosso mercedes 80142b*/
-    font-size: 2.5vh;
-    font-weight: bold;
-    width: 150px;
-    margin: auto;
-    align-items: center;
-}
-
-.in_centro div:hover{
-    background-color: rgb(0,63,61);
-}
-
-.divisore{
-    width: 100vw;
-    display: flex;
-}
-
 .linea{
     margin: auto;
     width: 65vw;
@@ -95,8 +44,10 @@ article section{
 .FotoProfilo{
     border-radius: 100%;
     max-height: 40vh;
+    height: 100%;
     border: solid 3px rgb(0, 161, 155);
 }
+
 #FP{
     float: right;
     margin: 0;
@@ -218,10 +169,4 @@ per fare un dot + paragrafo
 
 .spacing{
     margin-left: 10px;
-}
-
-footer{
-    margin-top: 10vh;
-    background-color: rgb(72, 79, 82);
-    height: 15vh;
 }
