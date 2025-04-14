@@ -170,3 +170,8 @@ per fare un dot + paragrafo
 .spacing{
     margin-left: 10px;
 }
+
+a {
+    color: rgb(0, 161, 155);
+    cursor: pointer;
+}

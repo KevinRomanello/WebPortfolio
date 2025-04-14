@@ -39,7 +39,8 @@ nav{
     padding: 0 1vw;
     margin: auto;
     align-items: center;
-    transition: 0.5s
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .in_centro div:hover{
