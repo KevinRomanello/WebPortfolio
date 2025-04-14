@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/leggenda.css">
     <title>Document</title>
 </head>
 
@@ -29,10 +30,43 @@
         </div>
     </div>
     <article>
+        <section class="introduzione">
+            <div>
+                In questa sezione ho raccolto alcuni dei progetti a cui ho lavorato, ognuno con un approccio e un
+                obiettivo diverso. 
+                <br>
+                Accanto a ciascun progetto trovi una breve descrizione che ne riassume il contesto, le scelte tecniche e
+                le motivazioni alla base del lavoro.
+                <br>
+                <br>
+                Clicca per i dettagli dei progetti:
+            </div>
+            <div class="leggenda">
+                <br>
+                <div>
+                    <div onclick="GoToDolomiti()">Dolomiti's Landscape</div>
+                </div>
+                <div>
+                    <div onclick="GoToBossi()">Bossiagenzie</div>
+                </div>
+                <div>
+                    <div onclick="GoTo3d()">WebPortfolio 3d</div>
+                </div>
+                <div>
+                    <div onclick="GoToAltri()">Altri</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="divisoreSection">
+            <div class="linea2">
+            </div>
+        </div>
+
         <section>
             <div class="TitoloSezione">
                 <p class="asctag">#</p>
-                <p class="con_titolo">Dolomiti's Landscape</p>
+                <p class="con_titolo" id="Dolomiti">Dolomiti's Landscape</p>
             </div>
             <div class="tabella">
                 <div class="content">
@@ -162,7 +196,7 @@
         <section>
             <div class="TitoloSezione">
                 <p class="asctag">#</p>
-                <p class="con_titolo">Bossiagenzie WebSite</p>
+                <p class="con_titolo" id="Bossiagenzie">Bossiagenzie WebSite</p>
             </div>
             <div class="tabella">
                 <div class="content">
@@ -307,7 +341,7 @@
         <section>
             <div class="TitoloSezione">
                 <p class="asctag">#</p>
-                <p class="con_titolo">3d WebSite</p>
+                <p class="con_titolo" id="3dSito">3d WebSite</p>
             </div>
             <div class="tabella">
                 <div class="content">
@@ -319,10 +353,13 @@
                     </div>
                     <div class="margine-sinistro">
                         Questo è stato il mio primo sito web realizzato per un portfolio personale, nato con l’idea di
-                        creare qualcosa di originale e interattivo per distinguermi nel panorama dello <span class="in-par">sviluppo web</span>. 
+                        creare qualcosa di originale e interattivo per distinguermi nel panorama dello <span
+                            class="in-par">sviluppo web</span>.
                     </div>
                     <div class="margine-sinistro">
-                        Il <span class="in-par">focus</span> era unire la programmazione con la <span class="in-par">componente visiva</span>, per mostrare <span class="in-par">creatività</span> e <span class="in-par"> competenze tecniche</span>.
+                        Il <span class="in-par">focus</span> era unire la programmazione con la <span
+                            class="in-par">componente visiva</span>, per mostrare <span class="in-par">creatività</span>
+                        e <span class="in-par"> competenze tecniche</span>.
                     </div>
                     <br>
                     <div class="margine-sinistro">
@@ -336,14 +373,18 @@
                         </div>
                     </div>
                     <div class="margine-sinistro">
-                        Il sito è una <span class="in-par">web app</span> interattiva sviluppata con <span class="in-par">Node.js</span>, <span class="in-par">Express</span> e <span class="in-par">JavaScript</span>, con rendering 3D
+                        Il sito è una <span class="in-par">web app</span> interattiva sviluppata con <span
+                            class="in-par">Node.js</span>, <span class="in-par">Express</span> e <span
+                            class="in-par">JavaScript</span>, con rendering 3D
                         gestito tramite <span class="in-par">Three.js</span>.
                     </div>
                     <div class="margine-sinistro">
-                        È stato pensato fin dall’inizio per essere <span class="in-par">responsive</span>, adattandosi a diversi dispositivi.
+                        È stato pensato fin dall’inizio per essere <span class="in-par">responsive</span>, adattandosi a
+                        diversi dispositivi.
                     </div>
                     <div class="margine-sinistro">
-                        L’interfaccia è <span class="in-par">minimale</span> per lasciare spazio all’esperienza immersiva, con <span class="in-par">animazioni fluide</span> e
+                        L’interfaccia è <span class="in-par">minimale</span> per lasciare spazio all’esperienza
+                        immersiva, con <span class="in-par">animazioni fluide</span> e
                         <span class="in-par">interazione dinamica</span>.
                     </div>
                     <br>
@@ -355,9 +396,12 @@
                         </div>
                     </div>
                     <div class="margine-sinistro">
-                        Questo progetto è stato un primo passo concreto per presentarmi come <span class="in-par">sviluppatore web</span>,
-                        dimostrando la mia capacità di integrare <span class="in-par">tecnologie avanzate</span> e realizzare un’esperienza
-                        completa, sia a livello <span class="in-par">tecnico</span> che <span class="in-par">grafico</span>.
+                        Questo progetto è stato un primo passo concreto per presentarmi come <span
+                            class="in-par">sviluppatore web</span>,
+                        dimostrando la mia capacità di integrare <span class="in-par">tecnologie avanzate</span> e
+                        realizzare un’esperienza
+                        completa, sia a livello <span class="in-par">tecnico</span> che <span
+                            class="in-par">grafico</span>.
                     </div><br>
                     <br>
                     <div class="box-sottotitolo">
@@ -368,7 +412,21 @@
                     </div>
                 </div>
         </section>
+
+        <div class="divisoreSection">
+            <div class="linea2">
+            </div>
+        </div>
+
+        <section>
+            <div class="TitoloSezione">
+                <p class="asctag">#</p>
+                <p class="con_titolo" id="Altri">Altri</p>
+            </div>
+        </section>
     </article>
 </body>
 <script src="js/Script.js"></script>
+<script src="js/redirect.js"></script>
+
 </html>

@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-color: rgb(86, 95, 100); /* Mercedes gray */
     color: white;
+    font-size: 3vh;
 }
 
 .linea{
