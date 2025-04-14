@@ -3,6 +3,7 @@ body{
     background-color: rgb(86, 95, 100); /* Mercedes gray */
     color: white;
     font-size: 3vh;
+    font-family: "Manrope", sans-serif;
 }
 
 .linea{
