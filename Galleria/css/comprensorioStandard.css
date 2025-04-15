@@ -157,7 +157,7 @@ body {
 .fadeBlack{
     width: 100%;
     height: 100%;
-    background: radial-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.149), rgba(0, 0, 0, 0.398), black,black);
+    background: radial-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.149), rgba(0, 0, 0, 0.398),rgba(0, 0, 0, 0.614),black, black,black);
     display: flex;
     justify-content: center;
     align-items: center;

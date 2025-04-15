@@ -35,13 +35,6 @@ article{
     color: white;
 }
 
-.con_titolo{
-}
-
-article section{
-
-}
-
 .tabella{
     display: grid;
     grid-template-columns: auto auto;
