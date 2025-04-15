@@ -33,3 +33,16 @@ function GoToAltri() {
         });
     }
 }
+
+
+function GoToProgetti(){
+    window.open('progetti.html');
+}
+
+function GoToEsperienze(){
+    window.open('esperienze.html');
+}
+
+function GoToHome(){
+    window.open('index.html');
+}

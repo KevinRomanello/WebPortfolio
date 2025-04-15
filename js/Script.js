@@ -11,12 +11,6 @@ function foto(){
     }
 }
 
-function GoToProgetti(){
-    window.open('progetti.html');
-}
 
-function GoToHome(){
-    window.open('index.html');
-}
 
 
