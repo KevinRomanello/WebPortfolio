@@ -13,6 +13,11 @@ body{
     border-bottom: solid 1px white;
 }
 
+span img{
+    height: 2vh;
+    width: 13px;
+}
+
 article{
     margin: auto;
     margin-top: 2vh;
