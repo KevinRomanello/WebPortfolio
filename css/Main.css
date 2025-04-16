@@ -121,7 +121,7 @@ per fare un dot + paragrafo
     display: flex;
     width: 100%;
     align-items: center;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
 }
 
 .sottotitolo{
@@ -142,7 +142,7 @@ per fare un dot + paragrafo
 }
 
 .content{
-    font-size: 3vh;
+    font-size: 2.7vh;
     line-height: 4vh;
 }
 
