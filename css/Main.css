@@ -175,3 +175,7 @@ a {
     color: rgb(0, 161, 155);
     cursor: pointer;
 }
+
+ul li::marker {
+    color: rgb(0, 161, 155); 
+}
