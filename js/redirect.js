@@ -46,3 +46,7 @@ function GoToEsperienze(){
 function GoToHome(){
     window.open('index.html');
 }
+
+function GoToCompetenze(){
+    window.open('competenze.html');
+}
