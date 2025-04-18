@@ -2,7 +2,7 @@ body{
     margin: 0;
     background-color: rgb(86, 95, 100); /* Mercedes gray */
     color: white;
-    font-size: 3vh;
+    font-size: 2.7vh;
     font-family: "Manrope", sans-serif;
 }
 
@@ -94,7 +94,7 @@ per fare un dot + paragrafo
 }
 
 .dot div{
-    font-size: 3vh;
+    font-size: 2.7vh;
 }
 
 .range-date{
